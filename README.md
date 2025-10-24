@@ -80,7 +80,7 @@ python fle_demo.py "mongodb://localhost:27017"
 python fle_demo.py "mongodb://localhost:27017" --audit-only -o fle_audit.json
 ```
 
-## 📊 Report Format
+##  Report Format
 
 The toolkit generates comprehensive reports with:
 
@@ -172,7 +172,7 @@ if [ $(python mongodb_security_audit.py "$MONGODB_URI" --json-only | jq '.audit_
 fi
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -203,7 +203,7 @@ Create a `config.json` file for default settings:
 }
 ```
 
-## 📈 Best Practices
+##  Best Practices
 
 ### Regular Auditing
 - Run security audits weekly
