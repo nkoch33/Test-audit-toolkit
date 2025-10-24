@@ -2,7 +2,7 @@
 
 A comprehensive Python toolkit for auditing MongoDB deployments (local or cloud-hosted) for common security misconfigurations and producing detailed, color-coded reports.
 
-## 🔧 Features
+##  Features
 
 ### Core Security Checks
 - **TLS/SSL Encryption**: Detects unencrypted connections
@@ -136,7 +136,7 @@ The toolkit generates comprehensive reports with:
 - [ ] SOX compliance checks
 - [ ] Industry best practices
 
-## 🛠️ Advanced Usage
+##  Advanced Usage
 
 ### Custom Security Checks
 
