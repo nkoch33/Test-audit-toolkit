@@ -24,13 +24,13 @@ A comprehensive Python toolkit for auditing MongoDB deployments (local or cloud-
 - **Key Management**: Demonstrates proper key management practices
 - **Query Capabilities**: Shows deterministic vs random encryption
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.7+
 - MongoDB 3.6+ (for FLE features)
 - Required Python packages (see requirements.txt)
 
-## 🚀 Installation
+##  Installation
 
 1. Clone or download the toolkit files
 2. Install dependencies:
@@ -38,7 +38,7 @@ A comprehensive Python toolkit for auditing MongoDB deployments (local or cloud-
 pip install -r requirements.txt
 ```
 
-## 📖 Usage
+##  Usage
 
 ### Basic Security Audit
 
@@ -90,11 +90,11 @@ The toolkit generates comprehensive reports with:
 - **0-59**: Poor security posture requiring immediate attention
 
 ### Issue Classification
-- **🚨 CRITICAL**: Immediate action required
-- **⚠️ HIGH**: Address within 48 hours
-- **⚡ MEDIUM**: Address within 1 week
-- **ℹ️ LOW**: Address when convenient
-- **📝 INFO**: Informational only
+- ** CRITICAL**: Immediate action required
+- ** HIGH**: Address within 48 hours
+- ** MEDIUM**: Address within 1 week
+- ** LOW**: Address when convenient
+- ** INFO**: Informational only
 
 ### Categories
 - **Encryption**: TLS/SSL, encryption at rest
@@ -104,7 +104,7 @@ The toolkit generates comprehensive reports with:
 - **Logging**: Audit logging configuration
 - **Backup**: Backup and recovery settings
 
-## 🔒 Security Checks Performed
+##  Security Checks Performed
 
 ### Network Security
 - [ ] TLS/SSL encryption enabled
@@ -223,13 +223,13 @@ Create a `config.json` file for default settings:
 - Implement additional custom checks
 - Review and update security policies
 
-## 🚨 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
 **Connection Failed**
 ```
-❌ Failed to connect to MongoDB: [Errno 111] Connection refused
+ Failed to connect to MongoDB: [Errno 111] Connection refused
 ```
 - Check if MongoDB is running
 - Verify connection string
@@ -237,7 +237,7 @@ Create a `config.json` file for default settings:
 
 **Authentication Failed**
 ```
-❌ Failed to connect to MongoDB: Authentication failed
+ Failed to connect to MongoDB: Authentication failed
 ```
 - Verify username and password
 - Check user permissions
@@ -245,7 +245,7 @@ Create a `config.json` file for default settings:
 
 **Permission Denied**
 ```
-❌ Operation not permitted
+ Operation not permitted
 ```
 - Check user privileges
 - Verify database access rights
@@ -261,7 +261,7 @@ python -c "import logging; logging.basicConfig(level=logging.DEBUG)"
 python mongodb_security_audit.py "mongodb://localhost:27017"
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -269,24 +269,25 @@ python mongodb_security_audit.py "mongodb://localhost:27017"
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This tool is for educational and security assessment purposes only. Always test in a non-production environment first. The authors are not responsible for any damage caused by the use of this tool.
 
-## 📞 Support
+##  Support
 
 For issues and questions:
 - Create an issue in the repository
 - Check the troubleshooting section
 - Review MongoDB security documentation
 
-## 🔗 Resources
+##  Resources
 
 - [MongoDB Security Checklist](https://docs.mongodb.com/manual/security/)
 - [MongoDB Field-Level Encryption](https://docs.mongodb.com/manual/core/security-encryption-at-rest/)
 - [MongoDB Security Best Practices](https://docs.mongodb.com/manual/security-best-practices/)
 - [OWASP Database Security](https://owasp.org/www-project-database-security/)
+
