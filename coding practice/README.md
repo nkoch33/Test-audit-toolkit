@@ -2,7 +2,7 @@
 
 A comprehensive Python toolkit for auditing MongoDB deployments (local or cloud-hosted) for common security misconfigurations and producing detailed, color-coded reports.
 
-## 🔧 Features
+##  Features
 
 ### Core Security Checks
 - **TLS/SSL Encryption**: Detects unencrypted connections
@@ -290,4 +290,5 @@ For issues and questions:
 - [MongoDB Field-Level Encryption](https://docs.mongodb.com/manual/core/security-encryption-at-rest/)
 - [MongoDB Security Best Practices](https://docs.mongodb.com/manual/security-best-practices/)
 - [OWASP Database Security](https://owasp.org/www-project-database-security/)
+
 
