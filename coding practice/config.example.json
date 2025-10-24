@@ -1,0 +1,43 @@
+{
+    "mongodb": {
+        "connection_timeout": 5000,
+        "server_selection_timeout": 5000,
+        "max_pool_size": 10
+    },
+    "security": {
+        "score_threshold": 80,
+        "excluded_checks": [],
+        "custom_checks": []
+    },
+    "reporting": {
+        "format": "colored",
+        "include_recommendations": true,
+        "include_next_steps": true,
+        "save_json": true
+    },
+    "cloud": {
+        "aws": {
+            "region": "us-east-1",
+            "enabled": true
+        },
+        "gcp": {
+            "enabled": false,
+            "api_key": "",
+            "project_id": ""
+        }
+    },
+    "fle": {
+        "key_vault_namespace": "encryption.__keyVault",
+        "master_key_provider": "local",
+        "algorithms": {
+            "deterministic": "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic",
+            "random": "AEAD_AES_256_CBC_HMAC_SHA_512-Random"
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "mongodb_audit.log",
+        "max_size": "10MB",
+        "backup_count": 5
+    }
+}
